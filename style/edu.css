@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 247, 247);
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+
+}
+.logo{
+    display: flex;
+    margin: 4px;
+    padding: 10px;
+    background-color: rgb(6, 59, 105);
+    justify-content: space-between;
+
+}
+.logo h2{
+    color: rgb(137, 3, 3);
+    text-align: center;
+}
+.logo img{
+    margin: 5px;
+    padding: 5px;
+    height: 80px;
+    width: 80px;
+}
+
+.nav{
+    
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: wheat;
+}
+.nav li a{
+    margin: 10px;
+    padding: 5px;
+    transform: none;
+    transition: none;
+    background-color: rgb(170, 2, 2);
+    color: yellow;
+    text-transform: none;
+    transform-style: flat;
+} 
